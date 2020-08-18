@@ -23,4 +23,4 @@ Also contained is an analysis script which computes the DFTD and runs some class
  
  For more information see [DFT_Distance_SARS2_Phylogenies](DFT_Distance_SARS2_Phylogenies.md). 
  
- Please note that the work represented by the code in this repository is currently written in a paper that will soon be under review. (*Examining the quality of DFT distance metricsin SARS-CoV-2 Genomes* by **Micah Thornton & Monnie McGee** to appear in 2020/2021. 
+ Please note that the work represented by the code in this repository is currently written in a paper that will soon be under review. (*Examining the quality of DFT distance metrics in SARS-CoV-2 Genomes* by **Micah Thornton & Monnie McGee** to appear in 2020/2021). 
