@@ -1,0 +1,2 @@
+# DFT-Distance-Exploration-SARS-Cov-2
+This repository hosts the matlab code that allows for an analysis of Viral Genomic Sequences that are provided by the GISAID organization.  It allows for the usage of the Discrete Fourier Transform Distance in terms of genomic signals, and also explores how well the Power Spectra of the genomic sequences allows for the clustering/classification of sequences on geographic location of submission.
