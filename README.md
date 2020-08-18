@@ -18,8 +18,8 @@ report timing data, and length statistics for the procedure. Running this softwa
 Also contained is an analysis script which computes the DFTD and runs some classification/clustering analysis, followed by a simulated comparison to the Jukes-Cantor Distances which are calculated. Note that a parrallel pool is started and virtually required for sequences on order of the size of the SARS-CoV-2 Genome.  The data that was used for this analysis was a case study of samples of SARS-CoV-2 virus, which allows for the possible back-tracing of infections when a new sequence is submitted with modest accuracy.  It is recommended to run this script a few lines at a time, so that plots will be visible, and ordered one at a time.  The dependency structure of this procedure is: 
 
 * DFT_Distance_SARS2_Phylogenies.m
- * fftGenSeq.m
- * es2.m
+  * fftGenSeq.m
+  * es2.m
  
  For more information see [DFT_Distance_SARS2_Phylogenies](DFT_Distance_SARS2_Phylogenies.md). 
  
