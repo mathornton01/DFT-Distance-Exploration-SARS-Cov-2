@@ -12,7 +12,7 @@ This repository provides a MatLab(R) implementation of the technique for computi
   * es2.m 
   
  The fftGenSeq.m the procedure for computing the average spectral coefficients across all four different signal encodings (A=1,C=1,G=1,T=1), and returns the average coefficients (of which there are *n* for a sequence of length *n*).  es2.m provides the evenscaling procedure that was outlined in the 2015 Yin et al. paper.  Both are necessary to subsequently compute the high dimensional Euclidean distance between each sequence, and then subject to clustering or other analyses. This method will also 
-report timing data, and length statistics for the procedure. Running this software alone does not require a parallel pool to be started, as the FFT is fairly fast for this application.  For more details see [DFTDistance](DFTDistance.md)
+report timing data, and length statistics for the procedure. Running this software alone does not require a parallel pool to be started, as the FFT is fairly fast for this application.  For more details see [DFTDistance](DFTDistance.md).
 
 ## SARS-CoV-2 Fourier Spectra Analysis Script
 Also contained is an analysis script which computes the DFTD and runs some classification/clustering analysis, followed by a simulated comparison to the Jukes-Cantor Distances which are calculated. Note that a parrallel pool is started and virtually required for sequences on order of the size of the SARS-CoV-2 Genome.  The data that was used for this analysis was a case study of samples of SARS-CoV-2 virus, which allows for the possible back-tracing of infections when a new sequence is submitted with modest accuracy.  It is recommended to run this script a few lines at a time, so that plots will be visible, and ordered one at a time.  The dependency structure of this procedure is: 
@@ -22,3 +22,5 @@ Also contained is an analysis script which computes the DFTD and runs some class
  * es2.m
  
  For more information see [DFT_Distance_SARS2_Phylogenies](DFT_Distance_SARS2_Phylogenies.md). 
+ 
+ Please note that the work represented by the code in this repository is currently written in a paper that will soon be under review. (*Examining the quality of DFT distance metricsin SARS-CoV-2 Genomes* by **Micah Thornton & Monnie McGee** to appear in 2020/2021. 
