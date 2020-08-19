@@ -8,11 +8,11 @@ of pairwise distances, which when arranged in a matrix appear in the same order 
 
 Suppose the example file, ex.fasta contains:
 
-> Sequence A 
+\> Sequence A 
 ACCAACACCATTAATATACCATATTAGAAC
-> Sequence B 
+\> Sequence B 
 ACCAACGCCATTAATTAACCATATTAGAAC
-> Sequence C
+\> Sequence C
 GACCAGACCGAGAGTTAGAGCAGATAGACG
 
 
