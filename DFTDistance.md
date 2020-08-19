@@ -19,4 +19,8 @@ GACCAGACCGAGAGTTAGAGCAGATAGACG
 
 ## Example run in matlab 
 
+In order to compute the pairwise distances among the three genetice sequences in the ex.fasta file, make sure that the DFTDistance.m, fftGenSeq.m, and es2.m files are all contained within the same working directory as your fasta file, and you are producing a MatLab file within the same file, or are running from a MatLab command prompt focused on that directory, then simply run the following command: 
 
+```
+DFTD = DFTDistance('ex.fasta');
+```
