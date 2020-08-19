@@ -27,7 +27,8 @@ DFTD = DFTDistance('ex.fasta');
 
 ## Example Statistics Output 
 
-The run will store the 3 computed pairwise distances in the order (A,B), (A,C), and (B,C).  In order to extract a more familiar pairwise distance matrix from the returned pairwise distrance vector the familiar `squareform(DFTD)` may be used, if 
+The run will store the 3 computed pairwise distances in the order (A,B), (A,C), and (B,C).  In order to extract a more familiar pairwise distance matrix from the returned pairwise distance vector the familiar `squareform(DFTD)` may be used, you can use the `linkage(DFTD)` in order to construct a dendrogram for the data use
+the commands: `dendrogram(linkage(DFTD))`. 
 
 ```
 Number of Sequences:3
