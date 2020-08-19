@@ -8,12 +8,15 @@ of pairwise distances, which when arranged in a matrix appear in the same order 
 
 Suppose the example file, ex.fasta contains:
 
+`
 \> Sequence A <br /> 
 ACCAACACCATTAATATACCATATTAGAAC <br />
 \> Sequence B <br />
 ACCAACGCCATTAATTAACCATATTAGAAC <br /> 
 \> Sequence C <br /> 
 GACCAGACCGAGAGTTAGAGCAGATAGACG <br />
+`
 
+## Example run in matlab 
 
 
